@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html, body, div, p, ul, li {
  margin: 0px;
  padding: 0px;
@@ -5,10 +11,23 @@ html, body, div, p, ul, li {
  overflow-x: hidden;
  font-family: sans-serif;
  box-sizing: border-box;
+ max-width: 100%;
 }
+
+button {padding-inline: 0;
+padding-block: 0;
+padding:0;
+margin: 0;}
 
 html,body {
 Height:100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 p {
@@ -170,4 +189,15 @@ a.page-t:hover{ background-image:url(../../common/images/top-ov.png); }
 
 .none {
  display: none;
+}
+
+@media (max-width: 640px) {
+ #main, {
+    padding: 28px 16px;
+  }
+
+  body {
+    font-size: 16px;
+    line-height: 1.8;
+  }
 }
