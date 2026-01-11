@@ -1,0 +1,67 @@
+h1 {
+ width:100%;
+ Margin:80px auto;
+ Padding:0;
+ text-align: center;
+}
+
+.titletype {
+ Width:	30%;
+ }
+
+.catchcopy {
+ Text-align:center;
+ Color:#666666;
+ Width:98%;
+ Padding:3px 25px;
+ Margin:0 auto;
+}
+
+div.title{
+background-image: linear-gradient(#b393d8, #df9fbe 15% 64%, #c4ba85);
+}
+
+div.content{
+background-image: linear-gradient(#c4ba85,#dccdec 3% 10%, #af8fc0 40% 64%, #dccdec);
+}
+
+div.titleimg{
+ background-image: url(../images/bg-poem1.png);
+ background-repeat:repeat;
+ background-size:30%;
+ padding: 10px 20px 10px;
+}
+
+div.contentimg{
+ background-image: url(../images/bg-poem1.png);
+ background-repeat:repeat;
+ background-size:15%;
+ padding: 10px 20px 10px;
+}
+
+.poem-txt{
+background:rgba(255, 255, 255, 0.5);
+border-radius:15px;
+border-style: solid;
+border-color:#7a5f75;
+padding: 50px;
+width:50%;
+margin:0px auto 100px;
+}
+
+h3{font-size:1.2em;
+color: #644165;
+text-align:center;
+margin-bottom:30px;
+border-bottom: #7a5f75 1px solid;
+padding-bottom: 15px;}
+
+h2 {
+ width: 40%;
+ Margin:30px auto 30px;
+ Padding:0;
+}
+
+.bt {
+ Width:	100%;
+}

@@ -1,0 +1,173 @@
+html, body, div, p, ul, li {
+ margin: 0px;
+ padding: 0px;
+ width:100%;
+ overflow-x: hidden;
+ font-family: sans-serif;
+ box-sizing: border-box;
+}
+
+html,body {
+Height:100%;
+}
+
+p {
+ color:#666666;
+ Font-size:0.8em;
+ Text-align:center;
+ margin-bottom: 30px;
+}
+span.text {
+    filter: drop-shadow(3px 3px 3px rgb(183, 183, 175)); /* Xオフセット, Yオフセット, ぼかし半径, 色 */
+}
+
+#malenia-body {
+ Background-color:#533d6a;
+ Background-image: url(../images/bg-main.svg);
+ Background-repeat:repeat;
+ background-size:5%;
+ Background-position:center;
+}
+
+
+#main {
+ margin:0px auto;
+ Width:85%;
+ height:100%;
+ border-right:8px solid;
+ border-left:8px solid;
+ border-color: #000000;
+ background-attachment: scroll;
+ background-color: #000000;
+}
+
+h1 {
+ width:80%;
+ Margin:70px auto 30px;
+ Padding:0;
+}
+
+div.footer{
+    background-color: #000000;
+    padding: 10px 20px 10px;
+    color:#ffffff;
+    font-size: 0.5em;
+    text-align: center;
+    clear:both;
+}
+
+h2 {
+ width: 40%;
+ Margin:30px auto 30px;
+ Padding:0;
+}
+
+.bt {
+ Width:	100%;
+}
+
+ul {
+    clear: both;
+}
+
+a:link{color:#363636;}
+a:hover{color:#5e1c1c;}
+a:visited{color:#363636;}
+a:active{color:#5e1c1c;}
+
+.pagearea{
+clear: both;
+margin: 5px auto 50px;
+width: 50%;
+overflow: hidden;
+}
+
+a.nav{
+  float:left;
+  width:30%;
+  margin-left:55px;
+  display:block;          /* ←当たり判定を固定 */
+  height: 50px; /* 画像比率に合わせる（不要ならheight指定でもOK） */
+  /* height: 60px; などでもOK */
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:left center;
+  cursor:pointer;
+}
+
+/* 通常時 */
+a.back{ background-image:url(../../common/images/back.png); 
+}
+a.next{ background-image:url(../../common/images/next.png);
+}
+
+/* hover時 */
+a.back:hover{ background-image:url(../../common/images/back-ov.png); }
+a.next:hover{ background-image:url(../../common/images/next-ov.png);}
+
+.rinkarea{
+clear: both;
+margin: 50px auto 10px;
+width: 70%;
+overflow: hidden;
+}
+
+a.nav-m{
+  float:left;
+  width:20%;
+  margin-left:20px;
+  display:block;          /* ←当たり判定を固定 */
+  height: 30px; /* 画像比率に合わせる（不要ならheight指定でもOK） */
+  /* height: 60px; などでもOK */
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:left center;
+  cursor:pointer;
+}
+
+/* 通常時 */
+a.bt-home{ background-image:url(../../common/images/bt-home.png); 
+}
+a.bt-illust{ background-image:url(../../common/images/bt-illust.png);
+}
+a.bt-poem{ background-image:url(../../common/images/bt-poem.png); 
+    margin-left: 50px;
+}
+a.bt-haiku{ background-image:url(../../common/images/bt-haiku.png);
+}
+
+/* hover時 */
+a.bt-home:hover{ background-image:url(../../common/images/bt-home-ov.png); }
+a.bt-illust:hover{ background-image:url(../../common/images/bt-illust-ov.png);}
+a.bt-poem:hover{ background-image:url(../../common/images/bt-poem-ov.png); }
+a.bt-haiku:hover{ background-image:url(../../common/images/bt-haiku-ov.png);}
+
+.pagetop{
+margin: 0 auto 10px;
+width: 30%;
+}
+
+a.page-t{
+  width:30%;
+  margin-left:100px;
+  display:block;          /* ←当たり判定を固定 */
+  height: 30px; /* 画像比率に合わせる（不要ならheight指定でもOK） */
+  /* height: 60px; などでもOK */
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:left center;
+  cursor:pointer;
+}
+
+/* 通常時 */
+a.page-t{ background-image:url(../../common/images/top.png); 
+}
+
+/* hover時 */
+a.page-t:hover{ background-image:url(../../common/images/top-ov.png); }
+
+
+
+.none {
+ display: none;
+}
