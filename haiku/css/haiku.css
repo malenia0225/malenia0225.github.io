@@ -166,10 +166,10 @@ background-position: top left;
 
 .haiku{
   box-sizing: border-box;
-  flex: 1 1 80%;  /* 基本は3列のイメージ */
+  flex: 1 1 100%;  /* 基本は3列のイメージ */
   display:block;
 padding: 5px;
-margin:0px 20px 30px;
+margin:0px 0 30px;
 height: auto;
 }
 
