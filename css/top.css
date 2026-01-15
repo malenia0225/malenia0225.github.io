@@ -6,6 +6,8 @@ span.windowtext {
     filter: drop-shadow(3px 3px 3px rgb(151, 151, 133)); /* Xオフセット, Yオフセット, ぼかし半径, 色 */
 }
 
+p.topcatch{margin-bottom: 30px;}
+
 h1 {
  width:80%;
  Margin:70px auto 30px;
@@ -18,11 +20,10 @@ h1 {
 }
 
 .catchcopy {
- Text-align:center;
- Color:#666666;
- Width:98%;
- Padding:3px 25px;
- Margin:0 auto;
+ text-align:center;
+ color:#666666;
+ width:100%;
+ margin:0 auto;
 }
 
 div.title{
@@ -70,105 +71,72 @@ h2 {
  Width:	100%;
 }
 
-ul {
-    clear: both;
+ul.doornav{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;        /* いまの margin-right:5% 相当 */
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-li.illust {
- width: 30%;
- float: left;
- margin-right: 5%;
- display: block;
- background-image: url(../images/illust-ov.png);
- background-repeat: no-repeat;
- background-size: contain;
+/* li の共通 */
+ul.doornav > li.item{
+  box-sizing: border-box;
+  flex: 1 1 30%;  /* 基本は3列のイメージ */
+  display: block;
+
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-li.poem {
- width: 30%;
- float: left;
- margin-right: 5%;
- display: block;
- background-image: url(../images/poem-ov.png);
- background-repeat: no-repeat;
- background-size: contain;
+/* 背景画像だけ差し替え */
+li.illust{ background-image: url(../images/illust.png); }
+li.illust:hover{ background-image: url(../images/illust-ov.png); }
+li.poem  { background-image: url(../images/poem.png); }
+li.poem:hover{ background-image: url(../images/poem-ov.png); }
+li.haiku { background-image: url(../images/haiku.png); }
+li.haiku:hover{ background-image: url(../images/haiku-ov.png); }
+
+/* a と img をブロックにしてクリック領域を安定させる */
+ul.doornav > li.item > a{
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
-li.haiku {
- width: 30%;
- float: left;
- margin-right: 0;
- display: block;
- background-image: url(../images/haiku-ov.png);
- background-repeat: no-repeat;
- background-size: contain;
+/* SNS全体：横並び→狭ければ自動で縦並び */
+.sns-area{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 0 0 50px;
+  margin: 0;
 }
 
-div.sns-area{
-clear: both;
-padding-bottom: 50px;
+.sns-item{
+  box-sizing: border-box;
+  flex: 1 1 45%;     /* 320px以上なら横並びしやすい。狭ければ縦に落ちる */
+  text-align: center;
 }
 
-div.instagram {
- width: 50%;
- float: left;
- display: block;
- margin-bottom:10px;
-}
-div.x {
- width: 50%;
- float: left;
- margin-right: 0px;
- display: block;
- margin-bottom:10px;
-}
-div.logo {
- width: 120px;
- margin:0 auto;
- display: block;
- height: 120px;
-}
-div.tx {
- width: 100%;
- text-align: center;
- display: block;
- Font-size:0.8em;
- margin-bottom:10px;
-}
-.instagram{width:75%;}
-.x{width:75%;}
+.sns-logo-img 
+{width:30%;}
 
-.instagra-logo{width:75%;}
-.x-logo{width:75%;}
-
-a.illust:link{
-    display: inline-block;
+.sns-whole{
+  display:block;
+  text-align:center;
+  text-decoration:none;
 }
-a.illust:hover{
-    background-color: transparent;
-}
-a.illust:hover img{
-visibility: hidden;
+.sns-text{
+  font-size:0.8em;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
-a.poem:link{
-    display: inline-block;
-}
-a.poem:hover{
-    background-color: transparent;
-}
-a.poem:hover img{
-visibility: hidden;
-}
-
-a.haiku:link{
-    display: inline-block;
-}
-a.haiku:hover{
-    background-color: transparent;
-}
-a.haiku:hover img{
-visibility: hidden;
+.sns-whole:hover .sns-text{
+  text-decoration:underline;
+  color:#4F3F67;
 }
 
 /***************************************************
@@ -975,4 +943,50 @@ visibility: hidden;
 .svg-elem-32 {
   -webkit-animation: animate-svg-fill-32 0.7s ease-in 3.6s both;
           animation: animate-svg-fill-32 0.7s ease-in 3.6s both;
+}
+
+
+@media (max-width: 640px) {
+h1 {
+ width:90%;
+ Margin:10px auto ;
+ Padding:0;
+}
+
+div.titleimg{
+ padding: 0px 20px 20px;
+}
+
+div.doorimg{
+ padding: 20px;
+}
+
+div.windowimg{
+ padding: 20px;
+}
+
+h2 {
+ width: 70%;
+ Margin:0 auto 10px;
+ Padding:0;
+}
+
+p.topcatch{margin-bottom: 0px;}
+
+  ul.doornav{
+    gap: 5%;       /* 縦並び時は%より固定の方が扱いやすいことが多いです */
+  }
+  ul.doornav > li.item{
+    flex-basis: 30%;
+  }
+
+.sns-area{
+  padding: 0px;
+}
+
+  .sns-logo-img{
+  width: 50%;        /* 好みで調整：150〜220pxあたり */
+  margin: 0 auto 10px;
+}
+
 }
