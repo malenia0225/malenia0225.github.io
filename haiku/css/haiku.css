@@ -170,7 +170,7 @@ background-position: top left;
   display:block;
 padding: 5px;
 margin:0px 20px 30px;
-height: 80px;  
+height: auto;
 }
 
 .grazia{
@@ -197,7 +197,7 @@ background-position: right center;
 background-repeat: no-repeat;
 height: 100%;
 text-align: right;
-padding: 20px;
+padding: 30px 10px;
 }
 
 .haiku-forza{
@@ -208,7 +208,7 @@ background-position: right center;
 background-repeat: no-repeat;
 height: 100%;
 text-align: center;
-padding: 20px;
+padding: 30px 10px;
 }
 
 .haiku-calma{
@@ -219,11 +219,11 @@ background-position: right center;
 background-repeat: no-repeat;
 height: 100%;
 text-align: center;
-padding: 20px;
+padding: 30px 10px;
 }
 
 p.haiku-txt {
-  font-size: 0.8em;
+  font-size: 0.7em;
   width: 100%;
   writing-mode: horizontal-tb;
   text-align: left;
