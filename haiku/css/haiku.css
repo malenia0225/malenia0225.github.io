@@ -197,7 +197,7 @@ background-position: right center;
 background-repeat: no-repeat;
 height: 100%;
 text-align: right;
-padding: 30px 10px;
+padding: 30px 5px;
 }
 
 .haiku-forza{
@@ -208,7 +208,7 @@ background-position: right center;
 background-repeat: no-repeat;
 height: 100%;
 text-align: center;
-padding: 30px 10px;
+padding: 30px 5px;
 }
 
 .haiku-calma{
@@ -219,7 +219,7 @@ background-position: right center;
 background-repeat: no-repeat;
 height: 100%;
 text-align: center;
-padding: 30px 10px;
+padding: 30px 5px;
 }
 
 p.haiku-txt {
