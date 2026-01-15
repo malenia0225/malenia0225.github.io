@@ -9,14 +9,6 @@ h1 {
  Width:	30%;
  }
 
-.catchcopy {
- Text-align:center;
- Color:#666666;
- Width:98%;
- Padding:3px 25px;
- Margin:0 auto;
-}
-
 div.title{
 background-image: linear-gradient(#949a84,#c0d1ae 15% 64%, #98beb9);
 }
@@ -43,20 +35,28 @@ div.contentimg{
 .buttonarea{
 margin: 0 60px 30px;
 background-image: url(../images/category.svg);
-background-size: 100px;
-padding:0 105px 0;
+background-size: 20%;
+padding:0 20% 0;
 background-repeat: no-repeat;
 background-position: left;
 }
 
-.haiku-area{overflow: hidden;}
+.haiku-area{
+display: flex;
+flex-wrap: wrap;
+gap: 12%;  
+  overflow: hidden;
+width: 90%;
+margin: 0 auto;
+}
 
 .haiku{
+  box-sizing: border-box;
+  flex: 0 1 25%;  /* 基本は3列のイメージ */
+  display:block;
 padding: 40px 0 25px;
-width:20%;
-margin:0px 60px 100px;
-float: left;
-height: 680px;  
+margin:0px 0 100px;
+height: 45rem;  
 }
 
 .grazia{
@@ -113,19 +113,6 @@ p.haiku-txt {
   text-align: center;
 }
 
-h3{font-size:1.2em;
-color: #644165;
-text-align:center;
-margin-bottom:30px;
-border-bottom: #7a5f75 1px solid;
-padding-bottom: 15px;}
-
-h2 {
- width: 40%;
- Margin:30px auto 30px;
- Padding:0;
-}
-
 .bt {
  Width:	100%;
 }
@@ -143,6 +130,108 @@ h2 {
   cursor: pointer;
   margin-left:5px;
 }
-
+.none {
+ display: none;
+}
 
 img.bt-haiku{width: 100%;}
+
+@media (max-width: 640px) {
+h1 {
+ width:100%;
+ Margin:10px auto;
+ Padding:0;
+ text-align: center;
+}
+
+.titletype {
+ Width:	60%;
+ }
+
+.buttonarea{
+margin: 0 0 30px;
+background-image: url(../images/category.svg);
+background-size: 30%;
+padding:10% 0 0;
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+.icon-img {
+  width:50px;
+  height: 50px;
+  cursor: pointer;
+  display: block;
+}
+
+.haiku{
+  box-sizing: border-box;
+  flex: 1 1 80%;  /* 基本は3列のイメージ */
+  display:block;
+padding: 5px;
+margin:0px 20px 30px;
+height: 80px;  
+}
+
+.grazia{
+background:rgba(255, 255, 255, 0.5);
+border: solid #a49f75 2px;
+}
+
+.forza{
+background:rgba(255, 255, 255, 0.5);
+border: solid #6f8467 2px;
+
+}
+
+.calma{
+background:rgba(255, 255, 255, 0.5);
+border: solid #817e66 2px;
+}
+
+.haiku-grazia{
+margin: 0 auto;
+background-image: url(../images/grazia.svg);
+background-size: 15%;
+background-position: right center;
+background-repeat: no-repeat;
+height: 100%;
+text-align: right;
+padding: 20px;
+}
+
+.haiku-forza{
+margin: 0 auto;
+background-image: url(../images/forza.svg);
+background-size: 15%;
+background-position: right center;
+background-repeat: no-repeat;
+height: 100%;
+text-align: center;
+padding: 20px;
+}
+
+.haiku-calma{
+margin: 0 auto;
+background-image: url(../images/calma.svg);
+background-size: 15%;
+background-position: right center;
+background-repeat: no-repeat;
+height: 100%;
+text-align: center;
+padding: 20px;
+}
+
+p.haiku-txt {
+  font-size: 0.8em;
+  width: 100%;
+  writing-mode: horizontal-tb;
+  text-align: left;
+    overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.none {
+ display: none;
+}
+}

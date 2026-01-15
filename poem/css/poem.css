@@ -47,6 +47,8 @@ border-color:#7a5f75;
 padding: 50px;
 width:50%;
 margin:0px auto 100px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 h3{font-size:1.2em;
@@ -54,7 +56,10 @@ color: #644165;
 text-align:center;
 margin-bottom:30px;
 border-bottom: #7a5f75 1px solid;
-padding-bottom: 15px;}
+padding-bottom: 15px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 
 h2 {
  width: 40%;
@@ -64,4 +69,28 @@ h2 {
 
 .bt {
  Width:	100%;
+}
+
+@media (max-width: 640px) {
+h1 {
+ width:100%;
+ Margin:10px auto;
+ Padding:0;
+ text-align: center;
+}
+
+.titletype {
+ Width:	60%;
+ }
+
+.poem-txt{
+background:rgba(255, 255, 255, 0.5);
+border-radius:15px;
+border-style: solid;
+border-color:#7a5f75;
+padding: 20px;
+width:90%;
+margin:0px auto 20px;
+}
+
 }

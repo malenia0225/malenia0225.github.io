@@ -89,22 +89,23 @@ a:visited{color:#363636;}
 a:active{color:#5e1c1c;}
 
 .pagearea{
-clear: both;
+display: flex;
+flex-wrap: wrap;
+gap: 5%;  
 margin: 5px auto 50px;
-width: 50%;
 overflow: hidden;
+width: 50%;
 }
 
 a.nav{
-  float:left;
-  width:30%;
-  margin-left:55px;
+  box-sizing: border-box;
+  flex: 1 1 30%;  /* 基本は3列のイメージ */
   display:block;          /* ←当たり判定を固定 */
-  height: 50px; /* 画像比率に合わせる（不要ならheight指定でもOK） */
+  height: 30px; /* 画像比率に合わせる（不要ならheight指定でもOK） */
   /* height: 60px; などでもOK */
   background-repeat:no-repeat;
   background-size:contain;
-  background-position:left center;
+  background-position: center;
   cursor:pointer;
 }
 
@@ -119,24 +120,25 @@ a.back:hover{ background-image:url(../../common/images/back-ov.png); }
 a.next:hover{ background-image:url(../../common/images/next-ov.png);}
 
 .rinkarea{
-clear: both;
+display: flex;
+flex-wrap: wrap;
+gap: 4%;   
 margin: 50px auto 10px;
 width: 70%;
 overflow: hidden;
 }
 
 a.nav-m{
-  float:left;
-  width:20%;
-  margin-left:20px;
-  display:block;          /* ←当たり判定を固定 */
-  height: 30px; /* 画像比率に合わせる（不要ならheight指定でもOK） */
-  /* height: 60px; などでもOK */
+  box-sizing: border-box;
+  flex: 1 1 17%;  /* 基本は3列のイメージ */
+  display: block;    /* ←当たり判定を固定 */
+  height:28px;  /* height: 60px; などでもOK */
   background-repeat:no-repeat;
   background-size:contain;
   background-position:left center;
   cursor:pointer;
 }
+
 
 /* 通常時 */
 a.bt-home{ background-image:url(../../common/images/bt-home.png); 
@@ -144,7 +146,6 @@ a.bt-home{ background-image:url(../../common/images/bt-home.png);
 a.bt-illust{ background-image:url(../../common/images/bt-illust.png);
 }
 a.bt-poem{ background-image:url(../../common/images/bt-poem.png); 
-    margin-left: 50px;
 }
 a.bt-haiku{ background-image:url(../../common/images/bt-haiku.png);
 }
@@ -156,13 +157,17 @@ a.bt-poem:hover{ background-image:url(../../common/images/bt-poem-ov.png); }
 a.bt-haiku:hover{ background-image:url(../../common/images/bt-haiku-ov.png);}
 
 .pagetop{
+display: flex;
+flex-wrap: wrap;
 margin: 0 auto 10px;
-width: 30%;
+width: 15%;
 }
 
 a.page-t{
-  width:30%;
-  margin-left:100px;
+  box-sizing: border-box;
+  flex: 1 1 17%;  /* 基本は3列のイメージ */
+  display: block;
+  width:100%;
   display:block;          /* ←当たり判定を固定 */
   height: 30px; /* 画像比率に合わせる（不要ならheight指定でもOK） */
   /* height: 60px; などでもOK */
@@ -194,4 +199,40 @@ a.page-t:hover{ background-image:url(../../common/images/top-ov.png); }
     font-size: 16px;
     line-height: 1.8;
   }
+
+.pagetop{
+margin: 0px auto;
+width: 70%;
+}
+
+a.page-t{
+  flex: 1 1 60%;  /* 基本は3列のイメージ */
+  height:20px;  /* height: 60px; などでもOK */
+  margin-bottom: 10px;/* 画像比率に合わせる（不要ならheight指定でもOK） */
+}
+
+.pagearea{
+margin: 0px auto;
+width: 70%;
+}
+
+a.nav{
+  flex: 1 1 60%;  /* 基本は3列のイメージ */
+  height:20px;  /* height: 60px; などでもOK */
+  margin-bottom: 10px;
+  background-position: left;
+}
+
+.rinkarea{
+clear: both;
+margin: 0px auto 10px;
+width: 70%;
+overflow: hidden;
+}
+
+a.nav-m{
+  flex: 1 1 60%;  /* 基本は3列のイメージ */
+  height:20px;  /* height: 60px; などでもOK */
+  margin-bottom: 10px;
+}
 }
