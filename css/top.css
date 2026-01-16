@@ -1083,15 +1083,15 @@ width: 30%;
 }
 
 @media (hover: hover) and (pointer: fine) {
-li.illust{ display: none; }
-li.illust:hover{ display: inline; }
-li.poem  { display: none; }
-li.poem:hover{ display: inline; }
-li.haiku { display: none; }
-li.haiku:hover{ display: inline; }
+li.illust{ display: inline; }
+li.illust:hover{ display: none; }
+li.poem  { display: inline; }
+li.poem:hover{ display: none; }
+li.haiku { display: inline; }
+li.haiku:hover{ display: none; }
 
-a.profile{ display: none; }
-a.profile:hover{ display: inline; }
+a.profile{ display: inline; }
+a.profile:hover{ display: none; }
 }
 
 @media (hover: none) and (pointer: coarse) {

@@ -241,22 +241,22 @@ a.nav-m{
 }
 
 @media (hover: hover) and (pointer: fine) {
-a.back{ display: none; }
-a.next{ display: none; }
-a.back:hover{ display: inline; }
-a.next:hover{ display: inline; }
+a.back{ display: inline; }
+a.next{ display: inline; }
+a.back:hover{ display: none; }
+a.next:hover{ display: none; }
 
-a.bt-home{ display: none; }
-a.bt-illust{ display: none; }
-a.bt-poem{ display: none; }
-a.bt-haiku{ display: none; }
-a.bt-home:hover{ display: inline; }
-a.bt-illust:hover{ display: inline; }
-a.bt-poem:hover{ display: inline; }
-a.bt-haiku:hover{ display: inline; }
+a.bt-home{ display: inline; }
+a.bt-illust{ display: inline; }
+a.bt-poem{ display: inline; }
+a.bt-haiku{ display: inline; }
+a.bt-home:hover{ display: none; }
+a.bt-illust:hover{ display: none; }
+a.bt-poem:hover{ display: none; }
+a.bt-haiku:hover{ display: none; }
 
-a.page-t{ display: none; }
-a.page-t:hover{ display: inline; }
+a.page-t{ display: inline; }
+a.page-t:hover{ display: none; }
 }
 
 @media (hover: none) and (pointer: coarse) {
