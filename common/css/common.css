@@ -201,23 +201,23 @@ a.page-t:hover{ background-image:url(../../common/images/top-ov.png); }
   }
 
 .pagetop{
-margin: 0px auto;
-width: 70%;
+margin: 30px auto;
+width: 30%;
 }
 
 a.page-t{
-  flex: 1 1 60%;  /* 基本は3列のイメージ */
+  flex: 1 1 100%;  /* 基本は3列のイメージ */
   height:20px;  /* height: 60px; などでもOK */
-  margin-bottom: 10px;/* 画像比率に合わせる（不要ならheight指定でもOK） */
+/* 画像比率に合わせる（不要ならheight指定でもOK） */
 }
 
 .pagearea{
-margin: 0px auto;
-width: 70%;
+margin: 30px auto;
+width: 40%;
 }
 
 a.nav{
-  flex: 1 1 60%;  /* 基本は3列のイメージ */
+  flex: 1 1 100%;  /* 基本は3列のイメージ */
   height:20px;  /* height: 60px; などでもOK */
   margin-bottom: 10px;
   background-position: left;
@@ -226,12 +226,12 @@ a.nav{
 .rinkarea{
 clear: both;
 margin: 0px auto 10px;
-width: 70%;
+width: 40%;
 overflow: hidden;
 }
 
 a.nav-m{
-  flex: 1 1 60%;  /* 基本は3列のイメージ */
+  flex: 1 1 100%;  /* 基本は3列のイメージ */
   height:20px;  /* height: 60px; などでもOK */
   margin-bottom: 10px;
 }
