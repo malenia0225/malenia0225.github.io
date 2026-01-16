@@ -209,6 +209,7 @@ a.page-t{
   flex: 1 1 100%;  /* 基本は3列のイメージ */
   height:20px;  /* height: 60px; などでもOK */
 /* 画像比率に合わせる（不要ならheight指定でもOK） */
+  background-position: center;
 }
 
 .pagearea{
@@ -221,6 +222,7 @@ a.nav{
   height:20px;  /* height: 60px; などでもOK */
   margin-bottom: 10px;
   background-position: left;
+  background-position: center;
 }
 
 .rinkarea{
@@ -234,5 +236,6 @@ a.nav-m{
   flex: 1 1 100%;  /* 基本は3列のイメージ */
   height:20px;  /* height: 60px; などでもOK */
   margin-bottom: 10px;
+  background-position: center;
 }
 }
