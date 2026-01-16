@@ -241,39 +241,54 @@ a.nav-m{
 }
 
 @media (hover: hover) and (pointer: fine) {
-a.back{ display: inline; }
-a.next{ display: inline; }
-a.back:hover{ display: none; }
-a.next:hover{ display: none; }
+a.back{ background-image:url(../../common/images/back.png); 
+}
+a.next{ background-image:url(../../common/images/next.png);
+}
+a.back:hover{ background-image:url(../../common/images/back-ov.png); }
+a.next:hover{ background-image:url(../../common/images/next-ov.png);}
 
-a.bt-home{ display: inline; }
-a.bt-illust{ display: inline; }
-a.bt-poem{ display: inline; }
-a.bt-haiku{ display: inline; }
-a.bt-home:hover{ display: none; }
-a.bt-illust:hover{ display: none; }
-a.bt-poem:hover{ display: none; }
-a.bt-haiku:hover{ display: none; }
+a.bt-home{ background-image:url(../../common/images/bt-home.png); 
+}
+a.bt-illust{ background-image:url(../../common/images/bt-illust.png);
+}
+a.bt-poem{ background-image:url(../../common/images/bt-poem.png); 
+}
+a.bt-haiku{ background-image:url(../../common/images/bt-haiku.png);
+}
+a.bt-home:hover{ background-image:url(../../common/images/bt-home-ov.png); }
+a.bt-illust:hover{ background-image:url(../../common/images/bt-illust-ov.png);}
+a.bt-poem:hover{ background-image:url(../../common/images/bt-poem-ov.png); }
+a.bt-haiku:hover{ background-image:url(../../common/images/bt-haiku-ov.png);}
 
-a.page-t{ display: inline; }
-a.page-t:hover{ display: none; }
+a.page-t{ background-image:url(../../common/images/top.png); 
+}
+a.page-t:hover{ background-image:url(../../common/images/top-ov.png); }
+
 }
 
 @media (hover: none) and (pointer: coarse) {
-a.back{ display: inline; }
-a.next{ display: inline; }
-a.back:hover{ display: none; }
-a.next:hover{ display: none; }
+a.back{ background-image:url(../../common/images/back.png); 
+}
+a.next{ background-image:url(../../common/images/next.png);
+}
+a.back:hover{ background-image:url(../../common/images/back.png); }
+a.next:hover{ background-image:url(../../common/images/next.png);}
 
-a.bt-home{ display: inline; }
-a.bt-illust{ display: inline; }
-a.bt-poem{ display: inline; }
-a.bt-haiku{ display: inline; }
-a.bt-home:hover{ display: none; }
-a.bt-illust:hover{ display: none; }
-a.bt-poem:hover{ display: none; }
-a.bt-haiku:hover{ display: none; }
+a.bt-home{ background-image:url(../../common/images/bt-home.png); 
+}
+a.bt-illust{ background-image:url(../../common/images/bt-illust.png);
+}
+a.bt-poem{ background-image:url(../../common/images/bt-poem.png); 
+}
+a.bt-haiku{ background-image:url(../../common/images/bt-haiku.png);
+}
+a.bt-home:hover{ background-image:url(../../common/images/bt-home.png); }
+a.bt-illust:hover{ background-image:url(../../common/images/bt-illust.png);}
+a.bt-poem:hover{ background-image:url(../../common/images/bt-poem.png); }
+a.bt-haiku:hover{ background-image:url(../../common/images/bt-haiku.png);}
 
-a.page-t{ display: inline; }
-a.page-t:hover{ display: none; }
+a.page-t{ background-image:url(../../common/images/top.png); 
+}
+a.page-t:hover{ background-image:url(../../common/images/top.png); }
 }

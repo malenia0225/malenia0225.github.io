@@ -1083,25 +1083,27 @@ width: 30%;
 }
 
 @media (hover: hover) and (pointer: fine) {
-li.illust{ display: inline; }
-li.illust:hover{ display: none; }
-li.poem  { display: inline; }
-li.poem:hover{ display: none; }
-li.haiku { display: inline; }
-li.haiku:hover{ display: none; }
+li.illust{ background-image: url(../images/illust.png); }
+li.illust:hover{ background-image: url(../images/illust-ov.png); }
+li.poem  { background-image: url(../images/poem.png); }
+li.poem:hover{ background-image: url(../images/poem-ov.png); }
+li.haiku { background-image: url(../images/haiku.png); }
+li.haiku:hover{ background-image: url(../images/haiku-ov.png); }
 
-a.profile{ display: inline; }
-a.profile:hover{ display: none; }
+a.profile{ background-image:url(../images/profile.png); 
+}
+a.profile:hover{ background-image:url(../images/profile-ov.png); }
 }
 
 @media (hover: none) and (pointer: coarse) {
-li.illust{ display: inline; }
-li.illust:hover{ display: none; }
-li.poem  { display: inline; }
-li.poem:hover{ display: none; }
-li.haiku { display: inline; }
-li.haiku:hover{ display: none; }
+li.illust{ background-image: url(../images/illust.png); }
+li.illust:hover{ background-image: url(../images/illust.png); }
+li.poem  { background-image: url(../images/poem.png); }
+li.poem:hover{ background-image: url(../images/poem.png); }
+li.haiku { background-image: url(../images/haiku.png); }
+li.haiku:hover{ background-image: url(../images/haiku.png); }
 
-a.profile{ display: inline; }
-a.profile:hover{ display: none; }
+a.profile{ background-image:url(../images/profile.png); 
+}
+a.profile:hover{ background-image:url(../images/profile.png); }
 }
