@@ -149,7 +149,7 @@ h1 {
  }
 
 .buttonarea{
-margin: 0 0 30px;
+margin: 0 0 10px;
 background-image: url(../images/category.svg);
 background-size: 30%;
 padding:10% 0 0;
@@ -162,6 +162,10 @@ background-position: top left;
   height: 50px;
   cursor: pointer;
   display: block;
+}
+
+.haiku-area{
+width: 100%;
 }
 
 .haiku{
