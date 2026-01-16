@@ -241,8 +241,6 @@ a.nav-m{
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .btn:hover img.normal { display: none; }
-  .btn:hover img.hover  { display: inline; }
 a.back{ display: none; }
 a.next{ display: none; }
 a.back:hover{ display: inline; }
