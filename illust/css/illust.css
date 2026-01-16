@@ -109,4 +109,10 @@ li.img-list{
   display: block;
 margin-bottom: 10px;}
 
+div.illust-position{
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+
 }

@@ -164,6 +164,12 @@ ul.doornav > li.item > a{
   word-break: break-word;
   color:#666666;
   line-height: 1.0;
+  text-decoration:none;
+}
+
+a.sns-text:hover{
+  text-decoration:underline;
+  color:#4F3F67;
 }
 
 .sns-whole:hover .sns-text{
@@ -1007,7 +1013,7 @@ a.profile:hover{ background-image:url(../images/profile-ov.png); }
 @media (max-width: 640px) {
 h1 {
  width:90%;
- Margin:10px auto ;
+ Margin:30px auto ;
  Padding:0;
 }
 
@@ -1017,7 +1023,7 @@ margin:50px auto 30px;
 }
 
 div.titleimg{
- padding: 0px 20px 20px;
+ padding: 0px 20px 30px;
 }
 
 div.profileimg{
@@ -1025,16 +1031,16 @@ div.profileimg{
 }
 
 div.doorimg{
- padding: 20px;
+ padding: 30px 20px 30px;
 }
 
 div.windowimg{
- padding: 20px 20px 0;
+ padding: 30px 20px 0;
 }
 
 h2 {
  width: 70%;
- Margin:0 auto 10px;
+ Margin:0 auto 30px;
  Padding:0;
 }
 
@@ -1043,7 +1049,7 @@ p.profile-txt{
  
 }
 
-p.topcatch{margin-bottom: 0px;}
+p.topcatch{margin-bottom: 30px;}
 
   ul.doornav{
     gap: 5%;       /* 縦並び時は%より固定の方が扱いやすいことが多いです */
@@ -1065,7 +1071,7 @@ p.topcatch{margin-bottom: 0px;}
 .profilearea{
 display: flex;
 flex-wrap: wrap;
-margin: 0px auto 0px;
+margin: 30px auto 0px;
 width: 30%;
 }
 
