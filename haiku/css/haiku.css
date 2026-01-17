@@ -242,6 +242,11 @@ p.haiku-txt {
   word-break: break-word;
 }
 
+.haiku-al{
+font-size: 0.8em;
+color:#666666;
+}
+
 .none {
  display: none;
 }

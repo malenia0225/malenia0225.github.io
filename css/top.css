@@ -1013,6 +1013,14 @@ h1 {
  Padding:0;
 }
 
+.catchcopy {
+font-size: 0.6em;
+}
+
+p.topcatch{
+font-size: 0.6em;
+}
+
 h1.profile{
 width:50%;
 margin:50px auto 30px;
@@ -1075,7 +1083,7 @@ width: 20%;
   line-height: 1.0;
 }
 
-.sns-item{font-size: 0.8em;}
+.sns-item{font-size: 0.6em;}
 
 }
 
