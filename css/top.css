@@ -1009,7 +1009,7 @@ a.profile:hover{ background-image:url(../images/profile-ov.png); }
 @media (max-width: 640px) {
 h1 {
  width:90%;
- Margin:30px auto ;
+ Margin:30px auto  10px;
  Padding:0;
 }
 
