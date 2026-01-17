@@ -6,11 +6,12 @@ span.windowtext {
     filter: drop-shadow(3px 3px 3px rgb(151, 151, 133)); /* Xオフセット, Yオフセット, ぼかし半径, 色 */
 }
 
-p.topcatch{margin-bottom: 30px;}
+p.topcatch{margin-bottom: 40px;
+line-height: 2.0;}
 
 h1 {
  width:80%;
- Margin:70px auto 30px;
+ Margin:70px auto 50px;
  Padding:0;
 }
 
@@ -39,14 +40,14 @@ font-size:0.8em;
 
 .titletype {
  Width:	100%;
- filter: drop-shadow(3px 3px 5px rgb(145, 148, 129)); /* Xオフセット, Yオフセット, ぼかし半径, 色 */
-}
+ }
 
 .catchcopy {
  text-align:center;
  color:#666666;
  width:100%;
  margin:0 auto;
+ line-height: 2.0;
 }
 
 div.title{
@@ -93,7 +94,7 @@ div.windowimg{
 
 h2 {
  width: 40%;
- Margin:30px auto 30px;
+ Margin:30px auto 40px;
  Padding:0;
 }
 
@@ -137,24 +138,18 @@ ul.doornav > li.item > a{
 
 /* SNS全体：横並び→狭ければ自動で縦並び */
 .sns-area{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
   padding: 0 0 0px;
   margin: 0;
 }
 
 .sns-item{
-  box-sizing: border-box;
-  flex: 1 1 45%;     /* 320px以上なら横並びしやすい。狭ければ縦に落ちる */
-  text-align: center;
+margin: 0 auto;
+text-align: center;
+color: #000000;
 }
 
-.sns-logo-img 
-{width:20%;}
 
 .sns-whole{
-  display:block;
   text-align:center;
   text-decoration:none;
 }

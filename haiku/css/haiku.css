@@ -108,9 +108,16 @@ text-align: center;
 p.haiku-txt {
   font-size: 1.6em;
   margin:0 auto;
-  width: 40px;
+  width: 70px;
   writing-mode: vertical-rl;
-  text-align: center;
+  text-align: left;
+}
+
+.haiku-al{
+font-size: 0.6em;
+overflow-wrap: anywhere;
+word-break: break-word;
+color: #999999;
 }
 
 .bt {

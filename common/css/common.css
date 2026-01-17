@@ -92,7 +92,7 @@ a:active{color:#5e1c1c;}
 display: flex;
 flex-wrap: wrap;
 gap: 5%;  
-margin: 5px auto 50px;
+margin: 50px auto 100px;
 overflow: hidden;
 width: 50%;
 }
@@ -101,7 +101,7 @@ a.nav{
   box-sizing: border-box;
   flex: 1 1 30%;  /* 基本は3列のイメージ */
   display:block;          /* ←当たり判定を固定 */
-  height: 30px; /* 画像比率に合わせる（不要ならheight指定でもOK） */
+  height: 20px; /* 画像比率に合わせる（不要ならheight指定でもOK） */
   /* height: 60px; などでもOK */
   background-repeat:no-repeat;
   background-size:contain;
@@ -160,7 +160,7 @@ a.bt-haiku:hover{ background-image:url(../../common/images/bt-haiku-ov.png);}
 display: flex;
 flex-wrap: wrap;
 margin: 0 auto 10px;
-width: 15%;
+width: 10%;
 }
 
 a.page-t{
@@ -169,7 +169,7 @@ a.page-t{
   display: block;
   width:100%;
   display:block;          /* ←当たり判定を固定 */
-  height: 30px; /* 画像比率に合わせる（不要ならheight指定でもOK） */
+  height: 20px; /* 画像比率に合わせる（不要ならheight指定でもOK） */
   /* height: 60px; などでもOK */
   background-repeat:no-repeat;
   background-size:contain;
