@@ -68,6 +68,30 @@ div.profileimg{
  padding: 50px 20px 0px;
 }
 
+div.seasonboard {background-color: #000000;
+background-image: url(../images/seasonborad.png);
+background-repeat: no-repeat;
+background-size: 25%;
+height: 35px;
+background-position: center;}
+
+div.season{
+    background-color: #b1d9dc;
+    background-image: linear-gradient(#a2bdc6, #d3e5ed 50%, #a2bdc6);
+}
+div.seasonimg{
+ background-image: url(../images/bg-season.png);
+ background-repeat:repeat;
+ background-size:10%;
+ background-position:0px 0;
+ padding: 20px;
+ border-bottom: #000000 8px solid;
+}
+
+img.season{width:90%;
+margin:0 auto;}
+
+
 div.door{
     background-color: #deddc2;
     background-image: linear-gradient(#c2c08f, #ededdf 50%, #c2c08f);

@@ -1,0 +1,120 @@
+#season-body {
+margin: 0;
+padding: 0;
+}
+
+
+#main-season {
+margin: 0;
+padding: 0;
+}
+
+div.content{
+background-color: #6cafb4;
+}
+
+div.contentimg{
+ margin:0px auto;
+ background-image: url(../../images/bg-season.png);
+ background-repeat:repeat;
+ background-size:23%;
+ background-position:0px 0;
+ padding: 200px 0 0;
+ border: none;
+ width: 100%;
+}
+
+div.hoshisayu{
+background-color: #b1d9dc;
+background-image: linear-gradient(#a2bdc6, #d3e5ed 50%, #a2bdc6);
+
+}
+
+div.hoshisayuimg{
+ margin:0px auto;
+ background-image: url(../../images/bg-season.png);
+ background-repeat:repeat;
+ background-size:10%;
+ background-position:0px 0;
+ padding: 40px 0;
+ border: none;
+ width: 100%;
+}
+
+img.seasonboard{width: 100%;}
+
+p.text {
+   color:#000000;
+   Font-size:0.8em;
+   Text-align:center;
+   font-style: normal;
+   margin: 20px 0 30px;
+   line-height: 2.0;
+}
+
+span.season {
+}
+
+img.album{width: 96%;
+border: #000000 3px solid;}
+
+h2 {
+ width: 40%;
+ Margin:30px auto 30px;
+ Padding:0;
+}
+
+.bt {
+ Width:	100%;
+}
+
+ul.img-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  list-style: none;
+    margin: 0px auto;
+    padding: 0 5%;
+}
+
+li.img-list{
+  box-sizing: border-box;
+  flex: 1 1 18%;  /* 基本は3列のイメージ */
+  display: block;
+margin-bottom: 80px;}
+
+ul.img-list > li.img-list > a{
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.img{width:90%;}
+
+img.img{border:solid #000000 3px;}
+
+@media (max-width: 640px) {
+h1 {
+ width:100%;
+ Margin:10px auto;
+ Padding:0;
+ text-align: center;
+}
+
+.titletype {
+ Width:	60%;
+ }
+
+li.img-list{
+  box-sizing: border-box;
+  flex: 1 1 48%;  /* 基本は3列のイメージ */
+  display: block;
+margin-bottom: 10px;}
+
+div.illust-position{
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+
+}
