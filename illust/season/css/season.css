@@ -15,13 +15,20 @@ background-color: #6cafb4;
 
 div.contentimg{
  margin:0px auto;
- background-image: url(../../images/bg-season.png);
+ background-image: url(../images/bg-season.png);
  background-repeat:repeat;
  background-size:21%;
  background-position:0px 0;
- padding: 200px 0 0;
+ padding: 0;
  border: none;
  width: 100%;
+}
+
+div.title-season{margin: 90px auto;}
+
+img.season-title{
+width:15%;
+margin:0 auto;
 }
 
 div.hoshisayu{
@@ -32,7 +39,7 @@ background-image: linear-gradient(#a2bdc6, #d3e5ed 50%, #a2bdc6);
 
 div.hoshisayuimg{
  margin:0px auto;
- background-image: url(../../images/bg-season.png);
+ background-image: url(../images/bg-season.png);
  background-repeat:repeat;
  background-size:10%;
  background-position:0px 0;
@@ -45,14 +52,24 @@ img.seasonboard{width: 100%;}
 
 p.text {
    color:#000000;
+   Font-size:1.0em;
+   Text-align:center;
+   font-style: normal;
+   margin: 50px 0 50px;
+   line-height: 2.0;
+}
+
+p.text-english {
+   color:#000000;
    Font-size:0.8em;
    Text-align:center;
    font-style: normal;
-   margin: 20px 0 200px;
+   margin: 0 0 200px;
    line-height: 2.0;
 }
 
 span.season {
+
 }
 
 img.album{width: 96%;

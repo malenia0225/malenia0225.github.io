@@ -69,7 +69,7 @@ div.profileimg{
 }
 
 div.seasonboard {background-color: #000000;
-background-image: url(../images/seasonborad.png);
+background-image: url(../illust/season/images/seasonborad.png);
 background-repeat: no-repeat;
 background-size: 25%;
 height: 35px;
@@ -80,7 +80,7 @@ div.season{
     background-image: linear-gradient(#a2bdc6, #d3e5ed 50%, #a2bdc6);
 }
 div.seasonimg{
- background-image: url(../images/bg-season.png);
+ background-image: url(../illust/season/images/bg-season.png);
  background-repeat:repeat;
  background-size:10%;
  background-position:0px 0;
