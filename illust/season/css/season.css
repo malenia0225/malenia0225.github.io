@@ -111,6 +111,11 @@ ul.img-list > li.img-list > a{
 img.img{border:solid #000000 3px;}
 
 @media (max-width: 640px) {
+
+p.text {
+   font-size:0.8em;
+}
+
 h1 {
  width:100%;
  Margin:10px auto;

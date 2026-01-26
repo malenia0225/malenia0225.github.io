@@ -68,24 +68,25 @@ div.profileimg{
  padding: 50px 20px 0px;
 }
 
-div.seasonboard {background-color: #000000;
-background-image: url(../illust/season/images/seasonborad.png);
-background-repeat: no-repeat;
-background-size: 25%;
-height: 35px;
-background-position: center;}
+div.seasonboard {background:rgba(116, 116, 116, 0.2);
+margin:30px 0 0;
+padding: 10px 0;}
+
+img.seasonboard {width: 30%;
+margin: 0px auto;}
+
 
 div.season{
     background-color: #b1d9dc;
     background-image: linear-gradient(#a2bdc6, #d3e5ed 50%, #a2bdc6);
-}
+    margin:0 auto 80px;
+  }
 div.seasonimg{
  background-image: url(../illust/season/images/bg-season.png);
  background-repeat:repeat;
  background-size:10%;
  background-position:0px 0;
  padding: 20px;
- border-bottom: #000000 8px solid;
 }
 
 img.season{width:90%;
@@ -1061,6 +1062,10 @@ div.profileimg{
 div.doorimg{
  padding: 30px 20px 30px;
 }
+
+div.season{
+     margin:0 auto 30px;
+  }
 
 div.windowimg{
  padding: 30px 20px 0;
