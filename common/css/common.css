@@ -110,13 +110,13 @@ a.nav{
 }
 
 /* 通常時 */
-a.back{ background-image:url(../../common/images/back.png); 
+a.prev{ background-image:url(../../common/images/prev.png); 
 }
 a.next{ background-image:url(../../common/images/next.png);
 }
 
 /* hover時 */
-a.back:hover{ background-image:url(../../common/images/back-ov.png); }
+a.prev:hover{ background-image:url(../../common/images/prev-ov.png); }
 a.next:hover{ background-image:url(../../common/images/next-ov.png);}
 
 .rinkarea{
@@ -241,11 +241,11 @@ a.nav-m{
 }
 
 @media (hover: hover) and (pointer: fine) {
-a.back{ background-image:url(../../common/images/back.png); 
+a.prev{ background-image:url(../../common/images/prev.png); 
 }
 a.next{ background-image:url(../../common/images/next.png);
 }
-a.back:hover{ background-image:url(../../common/images/back-ov.png); }
+a.prev:hover{ background-image:url(../../common/images/prev-ov.png); }
 a.next:hover{ background-image:url(../../common/images/next-ov.png);}
 
 a.bt-home{ background-image:url(../../common/images/bt-home.png); 
@@ -268,11 +268,11 @@ a.page-t:hover{ background-image:url(../../common/images/top-ov.png); }
 }
 
 @media (hover: none) and (pointer: coarse) {
-a.back{ background-image:url(../../common/images/back.png); 
+a.prev{ background-image:url(../../common/images/prev.png); 
 }
 a.next{ background-image:url(../../common/images/next.png);
 }
-a.back:hover{ background-image:url(../../common/images/back.png); }
+a.prev:hover{ background-image:url(../../common/images/prev.png); }
 a.next:hover{ background-image:url(../../common/images/next.png);}
 
 a.bt-home{ background-image:url(../../common/images/bt-home.png); 
