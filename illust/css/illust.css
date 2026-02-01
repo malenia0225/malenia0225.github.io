@@ -54,7 +54,10 @@ p.text {
 
 
 img.album{width: 96%;
-border: #000000 3px solid;}
+border-color: rgba(114, 114, 114, 0.3);
+border-width: 10px;
+border-style:  solid;
+}
 
 h2 {
  width: 40%;
@@ -89,7 +92,11 @@ ul.img-list > li.img-list > a{
 
 .img{width:90%;}
 
-img.img{border:solid #000000 3px;}
+img.img{
+border-color: rgba(114, 114, 114, 0.3);
+border-width: 3px;
+border-style:  solid;
+}
 
 @media (max-width: 640px) {
 h1 {

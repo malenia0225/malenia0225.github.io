@@ -41,11 +41,11 @@ div.contentimg{
 
 .poem-txt{
 background:rgba(255, 255, 255, 0.5);
-border-radius:15px;
+border-width: 8px;
 border-style: solid;
-border-color:#7a5f75;
-padding: 50px;
-width:50%;
+border-color:rgba(131, 57, 120, 0.5);
+padding: 80px;
+width:65%;
 margin:0px auto 100px;
   overflow-wrap: anywhere;
   word-break: break-word;
@@ -85,12 +85,12 @@ h1 {
 
 .poem-txt{
 background:rgba(255, 255, 255, 0.5);
-border-radius:15px;
 border-style: solid;
-border-color:#7a5f75;
+border-color:rgba(131, 57, 120, 0.5);
+border-width: 8px;
 padding: 20px;
 width:90%;
-margin:0px auto 20px;
+margin:0px auto 60px;
 }
 
 }
