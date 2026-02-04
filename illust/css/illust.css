@@ -141,6 +141,8 @@ width:86%;
 padding:8px;
 }
 
+img.seasonboard {margin: 0px auto 8px;}
+
 li.img-list{
   box-sizing: border-box;
   flex: 1 1 48%;  /* 基本は3列のイメージ */
