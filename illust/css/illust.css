@@ -135,9 +135,10 @@ h1 {
  Width:	60%;
  }
 
-div.season{
-     margin:0 auto 30px;
-  }
+div.seasonboard {
+margin:30px auto;
+width:86%;
+}
 
 li.img-list{
   box-sizing: border-box;
