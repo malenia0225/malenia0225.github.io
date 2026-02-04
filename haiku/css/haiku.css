@@ -28,7 +28,7 @@ div.contentimg{
  background-image: url(../images/bg-haiku.png);
  background-repeat:repeat;
  background-size:15%;
- padding: 10px 20px 10px;
+ padding: 0px 20px 10px;
  overflow: hidden;
 }
 

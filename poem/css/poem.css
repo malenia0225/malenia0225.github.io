@@ -36,7 +36,7 @@ div.contentimg{
  background-image: url(../images/bg-poem1.png);
  background-repeat:repeat;
  background-size:15%;
- padding: 10px 20px 10px;
+ padding: 0px 20px 10px;
 }
 
 .poem-txt{
@@ -84,10 +84,6 @@ h1 {
  }
 
 .poem-txt{
-background:rgba(255, 255, 255, 0.5);
-border-style: solid;
-border-color:rgba(131, 57, 120, 0.5);
-border-width: 8px;
 padding: 20px;
 width:90%;
 margin:0px auto 60px;

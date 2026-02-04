@@ -69,17 +69,17 @@ div.profileimg{
 }
 
 div.seasonboard {background:rgba(119, 142, 147, 0.3);
-margin:30px 0 0;
-padding: 5px 0;}
+margin:30px 0 80px;
+padding: 10px 20px 20px;}
 
 img.seasonboard {width: 20%;
-margin: 0px auto;}
+margin: 0px auto 10px;}
 
 
 div.season{
     background-color: #b1d9dc;
     background-image: linear-gradient(#a2bdc6, #d3e5ed 50%, #a2bdc6);
-    margin:0 auto 80px;
+    margin:0 auto;
   }
 div.seasonimg{
  background-image: url(../illust/season/images/bg-season.png);
@@ -1063,8 +1063,14 @@ div.doorimg{
  padding: 30px 20px 30px;
 }
 
+div.seasonboard {margin:0 auto 30px;
+padding: 8px;
+}
+
+img.seasonboard {margin: 0px auto 8px;}
+
 div.season{
-     margin:0 auto 30px;
+     margin:0 auto;
   }
 
 div.windowimg{
