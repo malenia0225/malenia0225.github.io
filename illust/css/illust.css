@@ -62,6 +62,26 @@ div.seasonimg{
  padding: 20px;
 }
 
+div.seasonboard-harmony {background:rgba(120, 126, 114, 0.3);
+margin:30px auto 80px;
+padding: 10px 20px 20px;
+width: 88%;}
+
+ div.season-harmony{
+  background-color: #b3dacc;
+  background-image: linear-gradient(#d0d5ca,#cfdbd9 50%, #d0d5ca);
+  margin:0 auto;
+  width: 100%;
+  }
+  div.seasonimg-harmony{
+ background-image: url(../season/images/bg-harmony.png);
+ background-repeat:repeat;
+ background-size:10%;
+ background-position:0px 0;
+ padding: 20px;
+}
+
+
 img.season{width:90%;
 margin:0 auto;}
 
@@ -136,6 +156,12 @@ h1 {
  }
 
 div.seasonboard {
+margin:30px auto;
+width:86%;
+padding:8px;
+}
+
+div.seasonboard-harmony {
 margin:30px auto;
 width:86%;
 padding:8px;

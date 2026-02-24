@@ -68,7 +68,7 @@ div.profileimg{
  padding: 50px 20px 0px;
 }
 
-div.seasonboard {background:rgba(119, 142, 147, 0.3);
+div.seasonboard {background:rgba(120, 126, 114, 0.3);
 margin:30px 0 80px;
 padding: 10px 20px 20px;}
 
@@ -77,12 +77,12 @@ margin: 0px auto 10px;}
 
 
 div.season{
-    background-color: #b1d9dc;
-    background-image: linear-gradient(#a2bdc6, #d3e5ed 50%, #a2bdc6);
+    background-color: #b3dacc;
+    background-image: linear-gradient(#d0d5ca,#cfdbd9 50%, #d0d5ca);
     margin:0 auto;
   }
 div.seasonimg{
- background-image: url(../illust/season/images/bg-season.png);
+ background-image: url(../illust/season/images/bg-harmony.png);
  background-repeat:repeat;
  background-size:10%;
  background-position:0px 0;

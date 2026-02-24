@@ -48,7 +48,39 @@ div.hoshisayuimg{
  width: 100%;
 }
 
-img.seasonboard{width: 100%;}
+div.content-harmony{
+background-color: #d0d5ca;
+}
+
+div.contentimg-harmony{
+ margin:0px auto;
+ background-image: url(../images/bg-harmony.png);
+ background-repeat:repeat;
+ background-size:21%;
+ background-position:0px 0;
+ padding: 0;
+ border: none;
+ width: 100%;
+}
+
+div.harmony{
+background-color: #b3dacc;
+background-image: linear-gradient(#d0d5ca,#cfdbd9 50%, #d0d5ca);
+
+}
+
+div.harmonyimg{
+ margin:0px auto;
+ background-image: url(../images/bg-harmony2.png);
+ background-repeat:repeat;
+ background-position: left top;
+ background-size:10%;
+ padding: 40px 0;
+ border: none;
+ width: 100%;
+}
+
+img.seasonboard{width: 98%;}
 
 p.text {
    color:#000000;
