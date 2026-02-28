@@ -12,11 +12,13 @@ html, body, div, p, ul, li {
  font-family: sans-serif;
  box-sizing: border-box;
  max-width: 100%;
+ background: none;
 }
 
 button {
 padding:0;
-margin: 0;}
+margin: 0;
+background: none;}
 
 html,body {
 Height:100%;

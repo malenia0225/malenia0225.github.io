@@ -129,6 +129,7 @@ color: #999999;
   height: 60px;
   cursor: pointer;
   display: block;
+  background:none;
 }
 
 .catg-h{
