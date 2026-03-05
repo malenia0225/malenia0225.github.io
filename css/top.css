@@ -114,12 +114,45 @@ div.windowimg{
  background-repeat:repeat;
  background-size:25%;
  background-position:0px 105px;
- padding: 80px 20px 0px;
+ padding: 80px 20px 80px;
 }
+
+div.asymptote{
+    background-color: #bcbcba; 
+    background-image: linear-gradient(#a3bb86, #b7ccc0 30%, #dededf);
+}
+div.asymptoteimg{
+ background-image: url(../images/bg-asymptote.png);
+ background-repeat:repeat;
+ background-size:20%;
+ background-position:left;
+ padding: 80px 20px 40px;
+}
+
+div.shundei{
+    background-color: #dedede; 
+    background-image: linear-gradient(#dededf, #c5c5cd 50%, #b7ccc0);
+}
+div.shundeiimg{
+ background-image: url(../images/bg-shundei.png);
+ background-repeat:repeat;
+ background-size:10%;
+ background-position:left top;
+ padding: 50px 0px 0px;
+}
+
+.at-illust
+{width: 100%;}
 
 h2 {
  width: 40%;
  Margin:30px auto 40px;
+ Padding:0;
+}
+
+h3 {
+ width: 12%;
+ Margin:0px auto 30px;
  Padding:0;
 }
 
