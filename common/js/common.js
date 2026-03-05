@@ -11,7 +11,6 @@ const images = [
   "/common/images/top-ov.png",
   "/common/images/next-ov.png",
   "/common/images/prev-ov.png",
-  "/haiku/images/calma-ov.png",
   "/haiku/images/all-ov.png",
   "/haiku/images/grazia-ov.png",
   "/haiku/images/calma-ov.png",

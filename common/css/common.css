@@ -162,7 +162,7 @@ a.bt-haiku:hover{ background-image:url(../../common/images/bt-haiku-ov.png);}
 display: flex;
 flex-wrap: wrap;
 margin: 0 auto 10px;
-width: 10%;
+width: 15%;
 }
 
 a.page-t{
@@ -204,7 +204,7 @@ a.page-t:hover{ background-image:url(../../common/images/top-ov.png); }
 
 .pagetop{
 margin: 30px auto;
-width: 30%;
+width: 20%;
 }
 
 a.page-t{
