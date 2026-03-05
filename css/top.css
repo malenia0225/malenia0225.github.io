@@ -1102,6 +1102,10 @@ padding: 8px;
 
 img.seasonboard {margin: 0px auto 8px;}
 
+div.asymptoteimg{
+ padding: 40px 20px 0px;
+}
+
 div.season{
      margin:0 auto;
   }
