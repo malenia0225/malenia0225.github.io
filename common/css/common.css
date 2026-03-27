@@ -111,6 +111,7 @@ a.nav{
   cursor:pointer;
 }
 
+
 /* 通常時 */
 a.prev{ background-image:url(../../common/images/prev.png); 
 }
@@ -130,6 +131,16 @@ width: 70%;
 overflow: hidden;
 }
 
+.homearea{
+display: flex;
+flex-wrap: wrap;
+gap: 5%;  
+margin: 50px auto 100px;
+overflow: hidden;
+width: 30%;
+}
+
+
 a.nav-m{
   box-sizing: border-box;
   flex: 1 1 17%;  /* 基本は3列のイメージ */
@@ -138,6 +149,17 @@ a.nav-m{
   background-repeat:no-repeat;
   background-size:contain;
   background-position:left center;
+  cursor:pointer;
+}
+
+a.nav-h{
+  box-sizing: border-box;
+  flex:1 1 17%;  /* 基本は3列のイメージ */
+  display: block;    /* ←当たり判定を固定 */
+  height:28px;  /* height: 60px; などでもOK */
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
   cursor:pointer;
 }
 
@@ -233,6 +255,12 @@ margin: 0px auto 10px;
 width: 40%;
 overflow: hidden;
 }
+
+.homearea{
+margin: 30px auto;
+width: 20%;
+}
+
 
 a.nav-m{
   flex: 1 1 100%;  /* 基本は3列のイメージ */
