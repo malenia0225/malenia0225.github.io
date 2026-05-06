@@ -127,7 +127,7 @@ div.asymptoteimg{
  background-repeat:repeat;
  background-size:20%;
  background-position:left;
- padding: 40px 20px 0px;
+ padding: 60px 20px 10px;
 }
 
 div.shundei{
@@ -152,7 +152,7 @@ h2 {
 }
 
 h3 {
- width: 30%;
+ width: 25%;
  Margin:0px auto 30px;
  Padding:0;
 }
