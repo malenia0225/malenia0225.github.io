@@ -120,7 +120,7 @@ div.doorimg{
 
 div.asymptote{
     background-color: #bcbcba; 
-    background-image: linear-gradient(#a3bb86, #b7ccc0 30%, #dededf);
+    background-image: linear-gradient(#a3bb86, #b7c9cc 30%, #bab7c3);
 }
 div.asymptoteimg{
  background-image: url(../images/bg-asymptote.png);
@@ -129,6 +129,20 @@ div.asymptoteimg{
  background-position:left;
  padding: 60px 20px 10px;
 }
+
+div.kakitsubata{
+    background-color: #dedede; 
+    background-image: linear-gradient(#bab7c3, #c5c5cd 50%, #bab7c3);
+}
+div.kakitsubataimg{
+ background-image: url(../images/bg-kakitsubata.png);
+ background-repeat:repeat;
+ background-size:10%;
+ background-position:left top;
+ padding: 50px 0px 0px;
+}
+
+
 
 div.shundei{
     background-color: #dedede; 
